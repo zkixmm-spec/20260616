@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자기소개 페이지 예제</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f6f9;
+            font-family: "Malgun Gothic", sans-serif;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        p {
+            margin-bottom: 30px;
+            color: #666;
+        }
+
+        .menu {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .menu a {
+            display: inline-block;
+            width: 220px;
+            padding: 20px;
+            text-decoration: none;
+            background-color: white;
+            color: #333;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .menu a:hover {
+            background-color: #3498db;
+            color: white;
+            transform: translateY(-5px);
+        }
+
+        .title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .desc {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>자기소개 페이지 예제</h1>
+
+        <p>
+            원하는 예제를 선택하여 확인해 보세요.
+        </p>
+
+        <div class="menu">
+
+            <a href="1.html">
+                <div class="title">예제 1</div>
+                <div class="desc">기본 자기소개 페이지</div>
+            </a>
+
+            <a href="2.html">
+                <div class="title">예제 2</div>
+                <div class="desc">프로필 카드형 페이지</div>
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
